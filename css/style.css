@@ -228,8 +228,9 @@
         font-style: normal;
         line-height: 71px;
         font-size: 48px;
-        margin-bottom: 20px;
         margin-top: 30px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
     }
     
     .our-request-description {
@@ -447,4 +448,162 @@
         background-size: cover;
         flex-basis: 19%;
         height: 60px;
+    }
+    
+    .reviews {
+        width: 100%;
+        background-color: white;
+        padding-bottom: 130px;
+    }
+    
+    .reviews .content {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    .reviews-title {
+        color: black;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 53px;
+        text-transform: uppercase;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    
+    .review-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 100%;
+        flex-wrap: nowrap;
+        margin-right: 30px;
+        margin-bottom: 100px;
+    }
+    
+    .review-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        flex-basis: 30%;
+        max-width: 350px;
+        margin: 0;
+        display: inline-block;
+        align-content: center;
+        margin-right: 20px;
+    }
+    
+    .quotes {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 96px;
+        line-height: 100%;
+        text-transform: uppercase;
+        margin-left: 30px;
+    }
+    
+    .review-card-text {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        color: #999999;
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .review-card-name {
+        text-transform: uppercase;
+        font-size: 15px;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+    }
+    
+    .contacts {
+        width: 100%;
+        padding-bottom: 100px;
+    }
+    
+    .contacts .content {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    .contacts-blocks {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 25px;
+    }
+    
+    .contacts-title {
+        color: black;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 53px;
+        text-transform: uppercase;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    
+    .contact i {
+        color: #f7654a;
+        font-size: 48px;
+        line-height: 40px;
+    }
+    
+    .contact h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: #999999;
+        text-transform: uppercase;
+    }
+    
+    .contact h2 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .footer {
+        width: 100%;
+        background-color: #404149;
+    }
+    
+    .footer .content {
+        width: 70%;
+        margin: 0 auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 16px;
+        line-height: 22px;
+        font-style: normal;
+        font-weight: normal;
     }
