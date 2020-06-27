@@ -1,0 +1,10 @@
+@media (min-width: 1200px) {
+    .partner {
+        height: 80px;
+        margin-top: 10px;
+    }
+    .partners .content {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
